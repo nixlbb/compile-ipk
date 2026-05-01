@@ -43,7 +43,7 @@ jobs:
 
       - name: 下载并解压 ImmortalWrt 源码
         run: |
-          SDK_BASE_URL="downloads.immortalwrt.org/releases/${{ github.event.inputs.firmware_version }}/targets/${{ github.event.inputs.target }}/"
+          SDK_BASE_URL="https://downloads.immortalwrt.org/releases/${{ github.event.inputs.firmware_version }}/targets/${{ github.event.inputs.target }}/"
           SDK_FILE=$(curl -s $SDK_BASE_URL | grep -oP 'immortalwrt-sdk-.*?-${{ steps.set_target.outputs.TARGET_DASH }}_gcc-.*?Linux-x86_64.tar.zst' | head -n 1)
           if [ -z "$SDK_FILE" ]; then
             echo "无法找到匹配的 SDK 文件"
