@@ -26,39 +26,6 @@ fork 后会自动切到自己的仓库：
 下拉到最下面选择SDK
 ![操作截图](./infra.openwrt.org.jpeg)
 
-## 可选的包
-
-<table width="100%">
-   <thead>
-      <tr>
-         <th>仓库</th>
-         <th>名称</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>https://github.com/openwrt-packages/openwrt-vlmcsd</td>
-         <td>openwrt-vlmcsd</td>
-      </tr>
-      <tr>
-         <td>https://github.com/openwrt-packages/luci-app-vlmcsd</td>
-         <td>luci-app-vlmcsd</td>
-      </tr>
-      <tr>
-         <td>https://github.com/openwrt-packages/helloworld</td>
-         <td>luci-app-ssr-plus</td>
-      </tr>
-      <tr>
-         <td>https://github.com/openwrt-packages/luci-app-bandwidthd</td>
-         <td>luci-app-bandwidthd</td>
-      </tr>
-      <tr>
-         <td>https://github.com/openwrt-packages/luci-app-clash</td>
-         <td>luci-app-clash</td>
-      </tr>
-   </tbody>
-</table>
-
 ## 安装说明
 
 1. 将编译好的 .ipk 文件上传到您的 OpenWrt 设备的 Web 界面（LuCI）。
