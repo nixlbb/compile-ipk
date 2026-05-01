@@ -6,15 +6,15 @@ on:
       target:
         description: "目标平台/架构"
         required: true
-        default: "bcm27xx/bcm2711"
+        default: "mediatek/filogic"
       firmware_version:
         description: "固件版本"
         required: true
-        default: "24.10.0"
+        default: "24.10.6"
       plugin_source:
         description: "插件源码地址"
         required: true
-        default: "https://github.com/sirpdboy/luci-app-netwizard.git"
+        default: "https://github.com/selfcan/luci-app-homebox.git"
 
 jobs:
   build:
