@@ -14,7 +14,7 @@ on:
       plugin_source:
         description: "插件源码地址"
         required: true
-        default: "https://github.com/selfcan/luci-app-homebox.git"
+        default: "https://github.com/nixlbb/luci-app-adguardhome-modern.git"
 
 jobs:
   build:
